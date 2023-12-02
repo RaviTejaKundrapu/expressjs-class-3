@@ -2,11 +2,13 @@ lockfileVersion: 5.3
 
 specifiers:
   express: ^4.18.2
+  git: ^0.1.5
   sqlite: ^4.2.1
   sqlite3: ^5.1.6
 
 dependencies:
   express: 4.18.2
+  git: 0.1.5
   sqlite: 4.2.1
   sqlite3: 5.1.6
 
@@ -440,6 +442,13 @@ packages:
       hasown: 2.0.0
     dev: false
 
+  /git/0.1.5:
+    resolution: {integrity: sha512-N+bfOrXyKMU/fQtCj6D/U9MQOEN0DAA8TLHSLdUQRSWBOkeRvsjJHdrdkvcq05xO7GSDKWc3nDEGoTZ4DfCCSg==}
+    engines: {node: '>=0.4.0'}
+    dependencies:
+      mime: 1.2.9
+    dev: false
+
   /glob/7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
     dependencies:
@@ -665,6 +674,10 @@ packages:
     engines: {node: '>= 0.6'}
     dependencies:
       mime-db: 1.52.0
+    dev: false
+
+  /mime/1.2.9:
+    resolution: {integrity: sha512-WiLgbHTIq5AYUvU/Luli4mZ1bUcHpGNHyCsbl+KPMg4zt+XUDpQehWjuBjdLaEvDTinvKj/FgfQt3fPoT7j08g==}
     dev: false
 
   /mime/1.6.0:
